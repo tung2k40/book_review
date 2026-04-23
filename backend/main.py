@@ -18,8 +18,8 @@ app = FastAPI(title="Book Review Backend API")
 # Cấu hình CORS để cho phép Frontend React truy cập
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Adjust this in production
-    allow_credentials=True,
+    allow_origins=["*"],  # Cho phép tất cả các domain (kể cả Vercel)
+    allow_credentials=False, # Fix: Không thể dùng True khi để wildcard '*'
     allow_methods=["*"],
     allow_headers=["*"],
 )
