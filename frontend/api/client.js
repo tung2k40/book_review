@@ -1,4 +1,4 @@
-const BASE_URL = "https://book-review-backend-tau.onrender.com"; // Thay đổi bằng link Render CỦA BẠN
+const BASE_URL = "https://book-review-pzwu.onrender.com"; // Link Render chính xác
 
 /**
  * Base fetch wrapper for the application
