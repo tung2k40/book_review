@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://book-review-backend-tau.onrender.com"; // Thay đổi bằng link Render CỦA BẠN
 
 /**
  * Base fetch wrapper for the application
